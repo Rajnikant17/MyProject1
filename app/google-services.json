@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "340068386357",
+    "firebase_url": "https://loginpage-43bd9.firebaseio.com",
+    "project_id": "loginpage-43bd9",
+    "storage_bucket": "loginpage-43bd9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340068386357:android:fa500cfb3124091e",
+        "android_client_info": {
+          "package_name": "com.example.rajnikantpandey.loginpage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "340068386357-vb62egaq994fa0t2dcsoo7bu5nc28co1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rajnikantpandey.loginpage",
+            "certificate_hash": "7e96e3ab8e63aaaf2ae50f6edd62b901f3bb786b"
+          }
+        },
+        {
+          "client_id": "340068386357-u89ddgm06fgcvsbepdbnl5v6l6b60j00.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtEDSV9dJahO2MQ-Gj9RH7TC7P4JpQVTY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "340068386357-u89ddgm06fgcvsbepdbnl5v6l6b60j00.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

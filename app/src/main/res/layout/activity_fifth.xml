@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context="com.example.rajnikantpandey.loginpage.FifthActivity">
+   <fragment
+       android:layout_marginTop="15sp"
+       android:layout_width="300sp"
+       android:layout_marginLeft="40sp"
+       android:id="@+id/container_3"
+       class="com.example.rajnikantpandey.loginpage.FifthFragment"
+       android:layout_height="130sp"></fragment>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="150sp"></View>
+    <fragment
+        android:layout_width="300sp"
+        android:layout_marginLeft="40sp"
+        android:id="@+id/container_4"
+        class="com.example.rajnikantpandey.loginpage.sixthfragment"
+        android:layout_height="130sp"></fragment>
+    <Button
+        android:layout_marginTop="100sp"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:text="oredr"
+        android:background="#ff0000"
+        android:onClick="order"
+        android:textSize="25sp"
+        />
+
+
+
+</LinearLayout>
