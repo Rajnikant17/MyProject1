@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:TextView="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#DAF7A6"
+    tools:context="com.example.rajnikantpandey.loginpage.RegistrationActivity">
+
+    <EditText
+        android:id="@+id/reg_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150sp"
+        android:hint="Email"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/reg_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:ems="10"
+        android:layout_marginTop="10sp"
+        android:inputType="textPassword" />
+
+    <Button
+        android:layout_marginTop="80sp"
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:background="#ff0000"
+        android:layout_height="wrap_content"
+        android:text="register" />
+
+    <TextView
+        android:id="@+id/sign_page"
+        android:layout_marginTop="15sp"
+        android:layout_marginLeft="120sp"
+        android:textColor="#3F51B5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="signin_page" />
+
+
+</LinearLayout>

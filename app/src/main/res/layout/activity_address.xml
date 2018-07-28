@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context="com.example.rajnikantpandey.loginpage.AddressActivity">
+    <TextView
+        android:id="@+id/id1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:text="Create New Address"
+        android:textSize="20sp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="50sp"></View>
+    <TextView
+        android:id="@+id/id3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="jdcks"
+        android:textSize="20sp"></TextView>
+    <TextView
+        android:id="@+id/id2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dsckj"
+
+        />
+    <Button
+        android:id="@+id/bt"
+        android:text="Next"
+        android:layout_marginTop="402sp"
+        android:background="#ff0000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">loginpage</string>
+    <string name="drawer_open">draweropen</string>
+    <string name="drawer_close">drawerclose</string>
+    <string-array name="number">
+        <item>10</item>
+        <item>10</item>
+    </string-array>
+</resources>
